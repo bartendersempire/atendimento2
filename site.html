@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Encomende nossos serviços</title>
+    
+    <!-- Fonte do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Updock&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: black;
+            font-family: 'Times New Roman', serif;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Garante que a página ocupe toda a altura */
+        }
+
+        .fixar {
+            font-size: 50px;
+            color: rgb(223, 186, 0);
+            font-family: "Updock", serif;
+        }
+
+        .conteudo {
+            flex: 1;
+            padding: 20px;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: rgb(255, 255, 255);
+            color: black;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        .rodape {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .instagram-img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        .botao-instagram {
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
+            background-color: white;
+            color: black;
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .botao-instagram:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1><b><i class="fixar">Tm Bartender</i></b></h1>
+
+    <div class="conteudo">
+        <hr>
+        <h2>Sobre nosso trabalho:</h2>
+        <p>
+            Nossa equipe trabalha como: bartender, ornamentações de festas. Oferecemos o melhor atendimento para que
+            todos aproveitem ao máximo a festa, com uma decoração bem feita e drinks lindos e deliciosos! Trabalhamos
+            em Virginópolis e região.
+        </p>
+
+        <p> Adicione alguns dados para entrarmos em contato.</p>
+        <input type="text" placeholder="Seu WhatsApp">
+        <button id="numero">Enviar</button>
+        <br>
+        <input type="text" placeholder="Seu nome">
+        <button id="nome">Enviar</button>
+    </div>
+
+    <div class="rodape">
+        <p>Caso queira entrar em contato conosco, basta acessar o link abaixo:</p>
+        <a href="https://www.instagram.com/drinks.tm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="botao-instagram">
+            <img src="unnamed.png" alt="Instagram" class="instagram-img"> Nosso Instagram
+        </a>
+    </div>
+
+</body>
+</html>
